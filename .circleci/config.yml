@@ -29,7 +29,7 @@ jobs:
               --url https://circleci.com/api/v2/project/gh/DinoDrinkwater7111/test2/pipeline \
               --header "Circle-Token: 6f59bad32373dbcd7ecf93ede767bb82b1403fb1" \
               --header "content-type: application/json" \
-              --data '{"branch":"main","parameters":{"image-name":"'$DOCKER_LOGIN"/"$CIRCLE_PROJECT_REPONAME":"0.1.<< pipeline.number >>'"}}'
+              --data '{"branch":"main","parameters":{"image-name":"1234"}}'
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
