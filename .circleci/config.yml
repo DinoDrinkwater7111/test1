@@ -27,7 +27,7 @@ jobs:
           command: |
             curl --request POST \
               --url https://circleci.com/api/v2/project/gh/DinoDrinkwater7111/test2/pipeline \
-              --header "Circle-Token: $CIRCLECI_API_KEY" \
+              --header "Circle-Token: 6f59bad32373dbcd7ecf93ede767bb82b1403fb1" \
               --header "content-type: application/json" \
               --data '{"branch":"main","parameters":{"image-name":"'$DOCKER_LOGIN"/"$CIRCLE_PROJECT_REPONAME":"0.1.<< pipeline.number >>'"}}'
 
